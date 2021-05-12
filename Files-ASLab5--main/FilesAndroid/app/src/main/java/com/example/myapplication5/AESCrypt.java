@@ -52,7 +52,6 @@ public class AESCrypt
         byte[] bytes = Base64.decode(cryptedText, Base64.DEFAULT);
         byte[] decrypted = cipher.doFinal(bytes);
         String decryptedText = new String(decrypted, "UTF-8");
-
         return decryptedText;
     }
 }
