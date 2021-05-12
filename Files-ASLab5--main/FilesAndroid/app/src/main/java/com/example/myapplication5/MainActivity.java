@@ -169,10 +169,4 @@ public class MainActivity extends AppCompatActivity
         this.posted = posted;
     }
 
-    public void deleteFragment(Integer tag)
-    {
-        setPosted(true);
-
-        MusicPlayer.getInstance().stop();
-    }
 }
