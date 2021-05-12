@@ -21,10 +21,8 @@ public class SignInActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
-
         email = findViewById(R.id.signInEmail);
         password = findViewById(R.id.signInPassword);
-
         password.setOnEditorActionListener((v, actionId, event) ->
         {
             if ((event != null && (event.getKeyCode() == KeyEvent.KEYCODE_ENTER)) || (actionId == EditorInfo.IME_ACTION_DONE))
@@ -73,6 +71,5 @@ public class SignInActivity extends AppCompatActivity
     {
         Intent signUpIntent = new Intent(com.example.myapplication5.SignInActivity.this, SignUpActivity.class);
         startActivity(signUpIntent);
-
     }
 }
