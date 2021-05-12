@@ -26,11 +26,8 @@ public class WebViewActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
-
         String url = getIntent().getStringExtra("url");
-
         findViewById(R.id.closeBrowser).setOnClickListener(v -> close());
-
         backButton = findViewById(R.id.browserBackButton);
         forwardButton = findViewById(R.id.browserForwardButton);
         backButton.setVisibility(View.GONE);
@@ -73,8 +70,7 @@ public class WebViewActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed()
-    {
-
+    {   
         if (webView.canGoBack())
             webView.goBack();
         else
