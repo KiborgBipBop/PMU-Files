@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:layout_marginHorizontal="5dp"
-    android:background="#989898"
+    android:background="@color/purple_200"
     tools:context=".AddFragmentActivity">
 
     <TextView

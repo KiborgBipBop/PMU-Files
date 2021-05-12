@@ -158,7 +158,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sing up"
-        android:textColor="#FFFFFF"
         android:textSize="54sp"
         app:layout_constraintBottom_toTopOf="@+id/signUpName"
         app:layout_constraintEnd_toEndOf="parent"

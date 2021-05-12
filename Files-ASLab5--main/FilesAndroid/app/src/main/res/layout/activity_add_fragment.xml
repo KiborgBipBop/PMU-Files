@@ -88,7 +88,7 @@
         android:importantForAutofill="no"
         android:inputType="textMultiLine"
         android:textSize="24sp"
-        android:background="#40FFFFFF"
+        android:background="#7B8570"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         android:backgroundTint="@color/purple_200"
