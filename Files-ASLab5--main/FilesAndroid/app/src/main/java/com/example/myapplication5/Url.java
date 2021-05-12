@@ -52,11 +52,6 @@ public class Url
         }
 
         str = str.substring(startIndex, endIndex);
-        /*if(str.charAt(startIndex)==' ')
-            str=str.substring(startIndex+1, endIndex);
-        else
-            str=str.substring(startIndex, endIndex);*/
-        //System.out.println("["+str+"]");
         if (URLUtil.isValidUrl(str) || Patterns.WEB_URL.matcher(str).matches())
             return str;
         else
