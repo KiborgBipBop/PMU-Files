@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context=".AddFragment">
+
+    <LinearLayout
+        android:id="@+id/linLFr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.widget.Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:background="@drawable/button"
+            android:layout_height="2dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.widget.Button
+                android:id="@+id/cancelBt"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="@string/cancel"
+                android:textColor="#FFFF"
+                android:visibility="gone" />
+
+            <android.widget.Button
+                android:id="@+id/postBt"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="@string/post"
+                android:textColor="#FFFF"
+                android:visibility="gone" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/postTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="false"
+            android:textColor="#FF000000"
+            android:textColorHint="#65777777"
+            android:textSize="24sp"
+            android:importantForAutofill="no"
+            />
+
+        <ImageView
+            android:id="@+id/addImage"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:focusable="true"
+            android:src="@drawable/camera"
+            android:backgroundTint="@color/white"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/myColor"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <android.widget.Button
+            android:id="@+id/addMusic"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/button"
+            android:text="@string/addMusic"
+            android:textColor="#FFFF"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="false"
+            android:textColor="#FF000000"
+            android:textColorHint="#65777777"
+            android:textSize="24sp"
+            android:importantForAutofill="no"
+
+            android:maxLines="3"/>
+
+        <android.widget.Button
+            android:id="@+id/deleteBt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/myColor"
+            android:text="@string/delete"
+            android:textColor="#FFFF"
+            android:visibility="visible" />
+
+        <android.widget.Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/button"
+            android:backgroundTint="#810B0B" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

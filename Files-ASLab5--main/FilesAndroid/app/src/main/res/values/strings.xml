@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gallery</string>
+
+    <string name="addMusic">Add music</string>
+    <string name="cancel">Cancel</string>
+    <string name="post">Post</string>
+    <string name="delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="signInGreeting">Sign In to Gallery!</string>
+
+    <string name="signUpGreeting">Sign Up to Gallery!</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="goBack">Go Back</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+
+    <string name="signInError">Incorrect E-mail or Password!</string>
+
+    <string name="confirm">Confirm</string>
+</resources>
