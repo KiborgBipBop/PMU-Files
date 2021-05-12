@@ -24,16 +24,13 @@ public class SignUpActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-
         name = findViewById(R.id.signUpName);
         surname = findViewById(R.id.signUpSurname);
         email = findViewById(R.id.signUpEmail);
         password = findViewById(R.id.signUpPassword);
         confirmPassword = findViewById(R.id.signUpConfirmPassword);
-
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
-
         confirmPassword.setOnEditorActionListener((v, actionId, event) ->
         {
             if ((event != null && (event.getKeyCode() == KeyEvent.KEYCODE_ENTER)) || (actionId == EditorInfo.IME_ACTION_DONE))
@@ -91,7 +88,6 @@ public class SignUpActivity extends AppCompatActivity
             Toast.makeText(this, "Passwords don't match!", Toast.LENGTH_SHORT).show();
             return false;
         }
-
         return true;
     }
 
