@@ -18,7 +18,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class AddFragmentActivity extends AppCompatActivity
 {
 
-    private static int ADD_IMAGE_REQUEST_CODE = 101;
 
     EditText title;
     EditText description;
