@@ -173,11 +173,11 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
                         lastWordIndex = i;
                 }
                 this.title.setText(title.substring(0, lastWordIndex) + "...");
-            } else
+            }
+            else
             {
                 this.title.setText(title);
             }
-
             imageView.setVisibility(postDto.getImageURI() != null ? View.VISIBLE : View.GONE);
         }
     }
